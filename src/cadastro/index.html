@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Cadastro</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -15,18 +18,19 @@
           
 
             <div class="alinhar">
-                <form action="" id="formulario">
+                <form action="" id="formulario" autocomplete="off">
                     <h1 id="titulo">Cadastrar</h1>
-                    <label for="name" class="forms--itens">Username
-                        <input type="text" placeholder="Username" id="name"  autocomplete="off">
+                    <hr id="cordinha">
+                    <label for="name" class="forms--itens"><h2>Nome</h2> <br>
+                        <input type="text" placeholder="Username" id="name"  autocomplete="off" name="user_name">
                     </label>
-                    <label for="email" class="forms--itens">Email
-                        <input type="text" placeholder="Email" id="email" autocomplete="off">
+                    <label for="email" class="forms--itens"><h2>Email</h2> <br>
+                        <input type="text" placeholder="Email" id="email" autocomplete="off" name="user_email">
                     </label>
-                    <label for="password" class="forms--itens">Senha
-                        <input type="password" placeholder="Senha" id="password" autocomplete="off">
+                    <label for="password" class="forms--itens"><h2>Senha</h2> <br>
+                        <input type="password" placeholder="Senha" id="password" autocomplete="off" name="user_password">
                     </label>
-                    <input type="submit" value="Cadastrar" id="Cadastrar">
+                    <input type="submit" value="Cadastrar" id="cadastrar">
                 </form>
             </div>
 
