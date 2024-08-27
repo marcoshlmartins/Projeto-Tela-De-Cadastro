@@ -6,11 +6,10 @@
 
 
 :root{
-    --corDeFundo:rgb(48, 172, 48);;
+    --corDeFundo:rgb(92, 1, 92);
 }
-
 body{
-    background-color: rgb(48, 172, 48);
+    background-color: var(--corDeFundo);
     display: flex;
     justify-content: center;
     font-size: 25px;
@@ -23,15 +22,14 @@ body{
 .container--central{
    position: absolute;
     background-color: white;
-    width: 40vw;
-    height: 70vh;
+    width: fit-content;
+    height: fit-content;
     transform: translate(-50%,-50%);
     right: 50%;
     top: 50%;
     left: 50%;
     bottom: 50%;
     border-radius: 10px;
-    
     box-shadow: 3px 2px 2px rgb(110, 110, 110);
 }
 #titulo{
@@ -64,11 +62,11 @@ input{
    
     
     border-color: #999;
-    width: 500px;
+    width: 35vw;
     height: 30px;
     padding: 5px;
     font-size: 20px;
-    border-color: rgb(48, 172, 48);
+    border-color: rgb(177, 0, 177);
     
     
 }
@@ -86,10 +84,10 @@ input:focus{
 }
 
 #cadastrar{
-    background-color: rgb(48, 172, 48);
+    background-color: rgb(170, 0, 170);
     height: 50px;
     color: white;
-    width: 515px;
+    width: 36vw;
     cursor: pointer;
     
     
@@ -100,7 +98,7 @@ input:focus{
     width: 50px;
     display: inline-block;
     margin-bottom: 40px;
-    background-color: rgb(48, 172, 48);
+    background-color: purple
 }
 
 h2{
@@ -113,4 +111,7 @@ h2{
 #titulo{
     font-size: 40px;
     
+}
+#cadastrar:hover{
+    background-color: rgb(201, 1, 201);
 }

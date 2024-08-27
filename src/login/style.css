@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans';
+
+}
+
+:root{
+    --corPrincipal:rgb(92, 1, 92);
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left--side{
+    width: 70vw;
+    background-color: var(--corPrincipal)
+}
+.right--side{
+    
+    width: 30vw;
+    margin: auto;
+    text-align: left;
+    margin-left: 5vw;
+    
+}
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+input{
+    width: 25vw;
+    border-color:rgba(128, 128, 128, 0.301);
+    outline: 0;
+    margin-bottom: 5vh;
+    height: 7vh;
+}
+input:focus{
+    outline: none;
+}
+h2{
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 10px;
+    text-align: right;
+    margin-right: 4vw;
+    padding-bottom: 7px;
+    
+}
+a{
+    color: rgb(0, 160, 253);
+    text-decoration: none;
+}
+#enviar{
+    background-color: rgba(187, 15, 187, 0.397);
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    width: 25vw;
+}
+#enviar:hover{
+    background-color: purple;
+}
+
+/* @media (max-width:1440px ){
+    .right--side{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+    }
+    .left--side{
+        display: none;
+    }
+}
